@@ -1,24 +1,7 @@
 # README
+Just execute the following to run the script:
+` .\import_comments_from_csv.rb`
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+All info about errors wil be stored in [import_comments_log.txt](import_comments_log.txt)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+!!! You should clean log file manually 
