@@ -45,3 +45,4 @@ end
 # How should it be done? probably some delay jobs
 # Should we use concurrency to speed up the process?
 # And what to do with non existing users?
+# Take into account a lot of sql requests. Probably some cashing for posts and users should be made, and inser_all! used.
