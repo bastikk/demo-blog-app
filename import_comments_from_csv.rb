@@ -44,3 +44,4 @@ end
 # What should we do with unsaved comments? Probably they should be stored ins separate CSV for manual review?
 # How should it be done? probably some delay jobs
 # Should we use concurrency to speed up the process?
+# And what to do with non existing users?
