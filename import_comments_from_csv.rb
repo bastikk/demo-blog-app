@@ -37,7 +37,10 @@ if __FILE__ == $PROGRAM_NAME
   ImportCommentsFromCSV.import(csv_file_path)
 end
 
-# Read the comments.csv file.
-# For each row in the CSV, find the corresponding Post by its slug.
-# Create a new Comment associated with the found Post
-# Handle and report any validation errors
+# Some points about the script
+#
+# Probably in production more detailed logging is required
+# What about comments duplicates?
+# What should we do with unsaved comments? Probably they should be stored ins separate CSV for manual review?
+# How should it be done? probably some delay jobs
+# Should we use concurrency to speed up the process?
